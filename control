@@ -1,0 +1,9 @@
+Package: com.said.clockplus
+Name: Clock next alarm
+Version: 0.0.2
+Architecture: iphoneos-arm
+Description: Show time(hr:mm:ss) till next alarm
+Maintainer: Said Al Mujaini
+Author: Said Al Mujaini
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
