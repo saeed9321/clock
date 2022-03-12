@@ -34,7 +34,6 @@ static NSTimeInterval delay_s = 0;
 %hook MTAAlarmTableViewController
 
 	- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-	
 		UIView *view = (UIView *)%orig;
 				
 		[view setUserInteractionEnabled:YES];
